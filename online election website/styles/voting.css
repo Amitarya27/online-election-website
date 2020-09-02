@@ -81,7 +81,7 @@
     .candidate-list{
         margin-top: 45px;
         overflow: visible;
-        height: inherit;
+        height: 100%;
     }
     .candidate-list .candidate-item{
      font-size: 8px;   
