@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O.E Register</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/registser.css">
+</head>
+
+<body>
+    <div class="mainBox">
+
+        <nav class="navbar">
+            <h1>Online Election System</h1>
+        </nav>
+
+        <h1 class="registration-h1">Registration</h1>
+        <div id="register">
+            <form action="">
+                <div class="form-wraper">
+                    <input type="text" class="fname_input" placeholder="First Name">
+                    <input type="text" class="fname_input" placeholder="Second Name">
+                    <input type="text" class="fname_input" placeholder="Third Name">
+                </div>
+
+                <div class="form-wraper2">
+
+                    <select class="choose_voter">
+                        <option value="voter">Voter</option>
+                        <option value="candidate">Candidate</option>
+                    </select>
+
+                    <select name="" id="" class="select-courses">
+                        <option value="course1">course1</option>
+                        <option value="course2">course2</option>
+                        <option value="course3">course3</option>
+                        <option value="course4">course4</option>
+                    </select>
+                </div>
+                <div class="form_wraper3">
+                    <input type="text" class="e-mail_input" placeholder="E-mail or mobile no">
+
+
+                    <div class="choose-img-div">
+
+                        <input type="file" id="choose-img" class="choose-img" accept="image/*">
+                        <img src="images/img_icon2.png" alt="choose image png">
+                        <label for="choose-img" id="choose-img-label">Choose image</label>
+
+                    </div>
+                </div>
+                <button class="register-btn"> Rigester </button>
+            </form>
+        </div>
+    </div>
+    </div>
+    
+</body>
+
+<script>
+    const choose_div = document.querySelector(".choose-img-div");
+    const choose_img = document.querySelector('#choose-img');
+
+    //makeing the choose img div click
+    choose_div.addEventListener('click', ()=>{
+        choose_img.click();
+    })
+</script>
+</html>

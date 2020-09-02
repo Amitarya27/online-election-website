@@ -1,0 +1,94 @@
+
+.wraper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75%;
+    flex-wrap: wrap;
+}
+.short-profile{
+    width: 165px;
+    box-shadow: 1px 1px 4px gray;
+    padding: 0px 25px;
+    height: 90%;
+    text-align: center;
+    /* height: 350px; */
+}
+.candidate-dp{
+    margin: 10%;
+}
+.canditate-name{
+    margin-bottom: 5px;
+}
+.short-profile h4,h5{
+    margin: 10%;
+}
+
+.full-profile-img{
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+}
+
+.voting-button{
+    padding: 8px 20px;
+    background: rgb(2, 238, 2);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 1px 1px 4px gray;
+    margin: 10px;
+}
+.voting-button:hover{
+    background: rgb(2, 223, 2);
+}
+
+.navbar{
+    display: none;
+}
+.statement-div{
+    width: 53%;
+    box-shadow: 1px 1px 4px gray;
+    padding: 0px 25px;
+    height: 90%;
+    overflow-y: scroll;
+}
+.statement-div h1{
+    margin: 15px 0px;
+}
+.statement-div p{
+    color: rgb(58, 58, 58);
+    font-size: 18px;
+}
+
+@media (max-width:500px){
+    .mainbox{
+        height: 100%;
+    }
+    .navbar{
+        display: block;
+    }
+    .short-profile, .statement-div{
+        width: 100%;
+        box-shadow: none;
+        overflow: visible;
+    }
+    .statement-div{
+        margin-top: 100px;
+        font-size: 15px;
+    }
+    .voting-button{
+        margin-top: 30px;
+        width: 70%;
+        height: 40px;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+    .full-profile-img{
+        display: none;
+    }
+
+
+}
