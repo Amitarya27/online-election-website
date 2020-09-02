@@ -80,5 +80,10 @@
     }
     .candidate-list{
         margin-top: 45px;
+        overflow: visible;
+    }
+    .candidate-list .candidate-item{
+     font-size: 10px;   
+        
     }
 }
