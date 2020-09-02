@@ -84,8 +84,6 @@
         height: 100%;
     }
     .candidate-list .candidate-item{
-        font-size: 8px;   
-        color: red;
-        
+        font-size: 12px;           
     }
 }
